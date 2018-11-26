@@ -1,0 +1,45 @@
+# Dos Help
+alias flush="echo 'This is unix try sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder;say cache flushed'"
+alias dns="echo 'This is unix try using sudo discoveryutil udnsflushcaches'"
+alias attrib="echo 'Use the command: chmod'"
+alias dir="echo 'Use the command: ls -lF for flie list'; echo Use df -h /Volumes... for freespace"
+alias del="echo 'Use the command: rm -iv'"
+alias move="echo 'Use the command: mv -iv'"
+alias md="echo 'Use the command: mkdir'"
+alias path="echo 'Use the command: echo \$PATH'"
+alias rename="echo 'Use the command: mv -iv'"
+alias copy="echo 'Use the command: cp -piv'"
+alias type="echo 'Use the command: cat'"
+alias cls="echo 'Use the command: clear'"
+alias ipconfig="echo 'Use the command: ifconfig'"
+alias mem="echo 'Use the command: free'"
+alias ver="echo 'Use the command: uname -a'"
+alias A:="echo 'No A drive in Unix. Who uses a floppy anymore: cd ~/'"
+alias a:="A:"
+alias C:="echo 'No C drive in Unix. Go to your home directory with the command: cd'"
+alias c:="C:"
+
+# Temp Help
+alias gosql="cd /usr/local/mysql/bin;pwd"
+alias editwatch="bbedit Watch.pl; bbedit WatchDayStart.pl;bbedit WatchDayEnd.pl;bbedit LiWatch.cfg"
+
+# Mod file defaults
+alias ping="ping -c4"
+alias ls="ls -GFh"
+alias du="du -sh"
+alias df="df -h"
+alias cp='cp -iv'
+alias mv='mv -iv' 
+
+# Like a short BAT file
+alias scripts="cd ~/bin"
+alias starwars="telnet towel.blinkenlights.nl"
+alias xt="/usr/local/Cellar/ytree/1.99/bin/ytree"
+alias xtree="/usr/local/Cellar/ytree/1.99/bin/ytree"
+alias ll="ls -lap"
+alias of='open -a Finder ./'
+
+
+# Change overall settings
+export EDITOR=/usr/bin/vim
+export BLOCKSIZE=1000000
